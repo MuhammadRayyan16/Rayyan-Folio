@@ -45,7 +45,6 @@ function Project() {
                 scroller: "body",
                 stanggers: true,
                 start: 'top 85%',
-
             }
         })
         gsap.from('.pro2', {

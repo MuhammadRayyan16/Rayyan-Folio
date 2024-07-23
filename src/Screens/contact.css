@@ -1,12 +1,11 @@
  .contact-section {
      height: max-content;
      width: 100%;
-     margin: 0 auto;
      color: #fff;
      display: flex;
      align-items: center;
-     justify-content: center;
      flex-direction: column;
+     padding: 0 !important;
  }
 
  .contact-section h2 {
@@ -23,15 +22,18 @@
  }
 
  .contact-form {
+     width: 100%;
      display: flex;
+     align-items: center;
      flex-direction: column;
      gap: 2.5rem;
  }
 
  .form-group {
+     width: 100%;
      display: flex;
+     align-items: center;
      flex-direction: column;
-     text-align: left;
  }
 
  .form-group label {
@@ -42,7 +44,7 @@
  .form-group input,
  .form-group textarea {
      width: 860px !important;
-     max-width: 90vw !important;
+     max-width: 80% !important;
      padding: 1.3rem;
      border: 1px solid #444;
      border-radius: 5px;
@@ -51,7 +53,7 @@
  }
 
  .form-group textarea {
-     width: 63vw;
+     /* width: 63vw; */
      height: 37vh;
 
  }

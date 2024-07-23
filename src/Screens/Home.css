@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.home-container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: #121415;
+    overflow: hidden;
+}
+
+.background-image-filter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: url(../assets/lines.webp) no-repeat center center/cover;
+    filter: opacity(0.25) grayscale(0.75);
+    z-index: 0;
+}
+
+.home {
+    position: relative;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    overflow-wrap: break-word;
+    gap: 10px;
+    z-index: 1;
+    color: #fff;
+}
+
+.home h1 {
+    font-family: "Space Mono", monospace;
+    width: 97%;
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #fff;
+    margin: 0;
+    animation: fadeInDown;
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+
+.home p {
+    width: 650px;
+    max-width: 97%;
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.home button {
+    font-size: 22px;
+    font-weight: 600;
+    background-color: #70e660;
+    color: #121415;
+    border: none;
+    height: 3.7rem;
+    width: 10.5rem;
+    border-radius: 4px;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+    transition: transform 0.6s ease;
+    font-family: Space Mono, monospace;
+}
+
+.home button:hover {
+    -webkit-box-shadow: 1px 6px 56px -7px rgba(0, 0, 0, 0.77);
+    -moz-box-shadow: 1px 6px 56px -7px rgba(0, 0, 0, 0.77);
+    box-shadow: 1px 6px 56px -7px rgba(0, 0, 0, 0.77);
+    transform: translateY(-4px);
+}
+
+.home span {
+    color: #70e660;
+    font-family: Space Mono, monospace;
+}
+
+@media screen and (width: 410px) {
+    .background-image-filter {
+        display: none;
+    }
+
+    .home h1 {
+        font-size: 3rem;
+    }
+}

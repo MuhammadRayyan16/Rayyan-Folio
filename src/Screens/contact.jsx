@@ -1,0 +1,70 @@
+import React from 'react'
+import './contact.css';
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
+
+function Contact() {
+
+    useGSAP(() => {
+        gsap.from('.contact-2', {
+            y: -65,
+            delay: 0.5,
+            opacity: 0,
+            duration: 1.1,
+            scrollTrigger: {
+                trigger: '.contact-2',
+                scroller: "body",
+                start: 'top 85%',
+            }
+        })
+        gsap.from('.form-group', {
+            y: -65,
+            delay: 0.5,
+            opacity: 0,
+            duration: 1.1,
+            scrollTrigger: {
+                trigger: '.form-group',
+                scroller: "body",
+                start: 'top 85%',
+            }
+        })
+        gsap.from('.submit-button', {
+            y: -65,
+            delay: 0.3,
+            opacity: 0,
+            duration: 1.1,
+            scrollTrigger: {
+                trigger: '.submit-button',
+                scroller: "body",
+                start: 'top 85%',
+            }
+        })
+    })
+
+    return (
+        <section className="contact-section">
+            <div className="contact-2">
+                <h2>Contact me</h2>
+                <div className="underline"></div>
+            </div>
+            <form className="contact-form">
+                <div className="form-group">
+                    <label htmlFor="title">Title</label>
+                    <input type="text" id="title" placeholder="What you're writing about?" />
+                </div>
+                <div className="form-group">
+                    <label htmlFor="message">Message</label>
+                    <textarea id="message" placeholder="Full message comes here..."></textarea>
+                </div>
+                <button type="submit" className="submit-button">Submit</button>
+            </form>
+        </section>
+    )
+
+
+}
+
+export default Contact;

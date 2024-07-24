@@ -44,8 +44,9 @@ function Contact() {
         })
     })
 
+
     return (
-        <section className="contact-section">
+        <section className="contact-section" id="Contact">
             <div className="contact-2">
                 <h2>Contact me</h2>
                 <div className="underline"></div>

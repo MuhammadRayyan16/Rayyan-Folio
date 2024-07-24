@@ -16,6 +16,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 6vh;
 }
 
 .project-text h1 {

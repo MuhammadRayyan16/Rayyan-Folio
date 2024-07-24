@@ -16,7 +16,7 @@ body {
 body::-webkit-scrollbar {
   display: block;
   width: 8px;
-  background: #2b2a2a;
+  background: #181A1B;
 }
 
 *::selection {

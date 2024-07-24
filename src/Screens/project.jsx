@@ -1,5 +1,6 @@
 import React from 'react';
-import './project.css';
+// import './project.css';
+import './project-new.css';
 import carimage from "../assets/project1.png";
 import gymimage from "../assets/project2.png";
 import business from "../assets/project3.png";
@@ -56,7 +57,6 @@ function Project() {
                 scroller: "body",
                 stanggers: true,
                 start: 'top 85%',
-
             }
         })
         gsap.from('.pro3', {
@@ -69,7 +69,6 @@ function Project() {
                 scroller: "body",
                 stanggers: true,
                 start: 'top 85%',
-
             }
         })
     })
@@ -81,66 +80,69 @@ function Project() {
                 <h1>Projects</h1>
                 <span></span>
             </div>
-            <div className="project-content">
-                <div className="project-one pro1">
-                    <div className="one-description">
-                        <h1>Parapantest</h1>
-                        <p>Quizzes and exam simulation for
-                            paragliding pilots.</p>
-                        <button>Html</button>
-                        <button>Css</button>
-                        <button>Javascrip</button>
-                        <button>Vs code</button>
-                        <div className="check-btn">
-                            <button onClick={handleClick}>Check it  <i className="fa-solid fa-arrow-up-right-from-square"></i> </button>
+            <div className="p-main">
+                <div className="p-card pro1">
+                    <div className="left">
+                        <div className="container">
+                            <h1>Parapantest</h1>
+                            <p>Quizzes and exam simulation for paragliding pilots.</p>
+                            <span>
+                                <button>Html</button>
+                                <button>Css</button>
+                                <button>Javascript</button>
+                                <button>Vs code</button>
+                            </span>
+                            <div>
+                                <button onClick={handleClick}>Check it  <i className="fa-solid fa-arrow-up-right-from-square"></i> </button>
+                            </div>
                         </div>
                     </div>
-                    <div className="project-image">
+                    <div className="right">
                         <img src={carimage} alt="Project 1" />
                     </div>
                 </div>
-            </div>
-            {/* PROJECT 2 */}
-            <div className="project-content">
-                <div className="project-one pro2">
-                    <div className="one-description">
-                        <h1>Parapantest</h1>
-                        <p>Quizzes and exam simulation for
-                            paragliding pilots.</p>
-                        <button>Html</button>
-                        <button>Css</button>
-                        <button>Javascrip</button>
-                        <button>Vs code</button>
-                        <div className="check-btn">
-                            <button onClick={handleClick2}>Check it  <i className="fa-solid fa-arrow-up-right-from-square"></i> </button>
+                <div className="p-card pro2">
+                    <div className="left">
+                        <div className="container">
+                            <h1>Parapantest</h1>
+                            <p>Quizzes and exam simulation for paragliding pilots.</p>
+                            <span>
+                                <button>Html</button>
+                                <button>Css</button>
+                                <button>Javascript</button>
+                                <button>Vs code</button>
+                            </span>
+                            <div>
+                                <button onClick={handleClick}>Check it  <i className="fa-solid fa-arrow-up-right-from-square"></i> </button>
+                            </div>
                         </div>
                     </div>
-                    <div className="project-image">
-                        <img src={gymimage} alt="Project 2" />
+                    <div className="right">
+                        <img src={gymimage} alt="Project 1" />
+                    </div>
+                </div>
+                <div className="p-card pro3">
+                    <div className="left">
+                        <div className="container">
+                            <h1>Parapantest</h1>
+                            <p>Quizzes and exam simulation for paragliding pilots.</p>
+                            <span>
+                                <button>Html</button>
+                                <button>Css</button>
+                                <button>Javascript</button>
+                                <button>Vs code</button>
+                            </span>
+                            <div>
+                                <button onClick={handleClick}>Check it  <i className="fa-solid fa-arrow-up-right-from-square"></i> </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="right">
+                        <img src={business} alt="Project 1" />
                     </div>
                 </div>
             </div>
-            {/* PROJECT 3 */}
-            <div className="project-content">
-                <div className="project-one pro3">
-                    <div className="one-description">
-                        <h1>Parapantest</h1>
-                        <p>Quizzes and exam simulation for
-                            paragliding pilots.</p>
-                        <button>Html</button>
-                        <button>Css</button>
-                        <button>Javascrip</button>
-                        <button>Vs code</button>
-                        <div className="check-btn">
-                            <button onClick={handleClick3}>Check it  <i className="fa-solid fa-arrow-up-right-from-square"></i> </button>
-                        </div>
-                    </div>
-                    <div className="project-image">
-                        <img src={business} alt="Project 3" />
-                    </div>
-                </div>
-            </div>
-        </div>
+        </div >
     )
 }
 

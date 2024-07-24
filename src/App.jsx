@@ -7,7 +7,7 @@ import Project from './Screens/project';
 import Contact from './Screens/contact';
 import Footer from './Screens/footer';
 import Loader from './Screens/loader';
-import Cursor from './Screens/Cursor';
+// import Cursor from './Screens/Cursor';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -26,7 +26,7 @@ function App() {
         <Loader />
       ) : (
         <>
-          <Cursor />
+          {/* <Cursor /> */}
           <Navbar />
           <Home />
           <About />

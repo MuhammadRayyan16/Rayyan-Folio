@@ -39,6 +39,7 @@
  .form-group label {
      margin-bottom: 0.5rem;
      font-size: 1.5rem;
+
  }
 
  .form-group input,
@@ -50,12 +51,26 @@
      border-radius: 5px;
      background-color: #333;
      color: #fff;
+     transition: transform 0.6s ease;
+ }
+
+ .form-group input:hover {
+     -webkit-box-shadow: 1px 6px 56px -7px rgba(0, 0, 0, 0.77);
+     -moz-box-shadow: 1px 6px 56px -7px rgba(0, 0, 0, 0.77);
+     box-shadow: 1px 6px 56px -7px rgba(0, 0, 0, 0.77);
+     transform: translateY(-1px);
+ }
+
+ .form-group input,
+ .form-group textarea:hover {
+     -webkit-box-shadow: 1px 6px 56px -7px rgba(0, 0, 0, 0.77);
+     -moz-box-shadow: 1px 6px 56px -7px rgba(0, 0, 0, 0.77);
+     box-shadow: 1px 6px 56px -7px rgba(0, 0, 0, 0.77);
+     transform: translateY(-1px);
  }
 
  .form-group textarea {
-     /* width: 63vw; */
      height: 37vh;
-
  }
 
  .form-group input::placeholder,
@@ -81,13 +96,17 @@
      color: #242424;
      font-size: 1.3rem;
      cursor: pointer;
-     transition: background-color 0.3s;
      font-family: Space Mono, monospace;
      font-weight: 600;
+     transition: transform 0.6s ease;
  }
 
  .submit-button:hover {
      background-color: #70e660;
+     -webkit-box-shadow: 1px 6px 56px -7px rgba(0, 0, 0, 0.77);
+     -moz-box-shadow: 1px 6px 56px -7px rgba(0, 0, 0, 0.77);
+     box-shadow: 1px 6px 56px -7px rgba(0, 0, 0, 0.77);
+     transform: translateY(-2px);
  }
 
  @media (max-width: 600px) {

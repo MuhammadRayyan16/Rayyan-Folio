@@ -1,6 +1,5 @@
 import React from 'react';
-// import './project.css';
-import './project-new.css';
+import './project.css';
 import carimage from "../assets/project1.png";
 import gymimage from "../assets/project2.png";
 import business from "../assets/project3.png";
@@ -8,9 +7,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-
 gsap.registerPlugin(ScrollTrigger);
-
 
 function Project() {
     const handleClick = () => {

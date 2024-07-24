@@ -23,55 +23,55 @@ function Project() {
         window.location.href = 'https://businessdev.netlify.app/';
     };
 
-    // useGSAP(() => {
-    //     gsap.from('.project-text', {
-    //         y: -65,
-    //         delay: 0.5,
-    //         opacity: 0,
-    //         duration: 1.1,
-    //         scrollTrigger: {
-    //             trigger: '.project-text',
-    //             scroller: "body",
-    //             start: 'top 85%',
-    //         }
-    //     })
-    //     gsap.from('.pro1', {
-    //         y: 65,
-    //         delay: 0.5,
-    //         opacity: 0,
-    //         duration: 1.1,
-    //         scrollTrigger: {
-    //             trigger: '.pro1',
-    //             scroller: "body",
-    //             stanggers: true,
-    //             start: 'top 85%',
-    //         }
-    //     })
-    //     gsap.from('.pro2', {
-    //         y: 65,
-    //         delay: 0.5,
-    //         opacity: 0,
-    //         duration: 1.1,
-    //         scrollTrigger: {
-    //             trigger: '.pro2',
-    //             scroller: "body",
-    //             stanggers: true,
-    //             start: 'top 85%',
-    //         }
-    //     })
-    //     gsap.from('.pro3', {
-    //         y: 65,
-    //         delay: 0.5,
-    //         opacity: 0,
-    //         duration: 1.1,
-    //         scrollTrigger: {
-    //             trigger: '.pro3',
-    //             scroller: "body",
-    //             stanggers: true,
-    //             start: 'top 85%',
-    //         }
-    //     })
-    // })
+    useGSAP(() => {
+        gsap.from('.project-text', {
+            y: -65,
+            delay: 0.5,
+            opacity: 0,
+            duration: 1.1,
+            scrollTrigger: {
+                trigger: '.project-text',
+                scroller: "body",
+                start: 'top 85%',
+            }
+        })
+        gsap.from('.pro1', {
+            y: 65,
+            delay: 0.5,
+            opacity: 0,
+            duration: 1.1,
+            scrollTrigger: {
+                trigger: '.pro1',
+                scroller: "body",
+                stanggers: true,
+                start: 'top 85%',
+            }
+        })
+        gsap.from('.pro2', {
+            y: 65,
+            delay: 0.5,
+            opacity: 0,
+            duration: 1.1,
+            scrollTrigger: {
+                trigger: '.pro2',
+                scroller: "body",
+                stanggers: true,
+                start: 'top 85%',
+            }
+        })
+        gsap.from('.pro3', {
+            y: 65,
+            delay: 0.5,
+            opacity: 0,
+            duration: 1.1,
+            scrollTrigger: {
+                trigger: '.pro3',
+                scroller: "body",
+                stanggers: true,
+                start: 'top 85%',
+            }
+        })
+    })
 
 
     return (
@@ -81,7 +81,7 @@ function Project() {
                 <span></span>
             </div>
             <div className="p-main">
-                <div className="p-card">
+                <div className="p-card pro1">
                     <div className="left">
                         <div className="container">
                             <h1>Parapantest</h1>
@@ -101,7 +101,7 @@ function Project() {
                         <img src={carimage} alt="Project 1" />
                     </div>
                 </div>
-                <div className="p-card">
+                <div className="p-card pro2">
                     <div className="left">
                         <div className="container">
                             <h1>Parapantest</h1>
@@ -121,7 +121,7 @@ function Project() {
                         <img src={gymimage} alt="Project 1" />
                     </div>
                 </div>
-                <div className="p-card">
+                <div className="p-card pro3">
                     <div className="left">
                         <div className="container">
                             <h1>Parapantest</h1>

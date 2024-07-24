@@ -23,6 +23,7 @@ function Project() {
         window.location.href = 'https://businessdev.netlify.app/';
     };
 
+
     useGSAP(() => {
         gsap.from('.project-text', {
             y: -65,

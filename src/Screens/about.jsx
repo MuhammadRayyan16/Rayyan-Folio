@@ -3,6 +3,7 @@ import './about.css';
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { Element } from "react-scroll";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -45,54 +46,57 @@ function About() {
     })
 
     return (
-        <div id="About" className="About-container" >
-            <div className="About-text">
-                <h1>About me</h1>
-                <span className='green-div'></span>
-                <i>Developing software for <span id='green-color'>19</span> years; spent <span id='green-color'>11</span> of them in web development.</i>
-            </div>
-            <div className="About-content">
-                <div className="About-getnow">
-                    <h2>Get to know me!</h2>
-                    <p id='text-one'>I'm a software developer proficient in JavaScript
-                        and the web. I'm passionate about web performance, accessibility, mentoring, user & developer experience.</p>
-                    <p>I follow a digital minimalism mindset, using
-                        technology to improve people's lives and provide value for businesses.</p>
-                    <p>In my free time, I build side projects and like
-                        exploring new technologies. You can see some of my work in the projects section below.</p>
-                    <p>I'm open to collaboration opportunities where I can
-                        contribute, learn and grow. Don't hesitate to reach
-                        out if you think my skills and experience are a good fit for your next project.</p>
-                    <button>Project</button>
+        <Element name="about">
+            <div className="About-container" >
+                <div className="About-text">
+                    <h1>About me</h1>
+                    <span className='green-div'></span>
+                    <i>Developing software for <span id='green-color'>19</span> years; spent <span id='green-color'>11</span> of them in web development.</i>
                 </div>
-                <div className="About-mytool">
-                    <h2>My  toolkit</h2>
-                    <div className="mytool-btns">
-                        <button>JavaScript</button>
-                        <button>Node.js</button>
-                        <button>React Native</button>
-                        <button>CSS</button>
-                        <button>SASS</button>
-                        <button>React</button>
-                        <button>Next.js</button>
-                        <button>GSAP</button>
-                        <button>Vite</button>
-                        <button>Expo</button>
-                        <button>Git</button>
-                        <button>Github</button>
-                        <button>Vercel</button>
-                        <button>Figma</button>
-                        <button>awwwards</button>
-                        <button>Tailwind</button>
-                        <button>Bootstrap</button>
-                        <button>Netlify</button>
-                        <button>Vercel</button>
-                        <button>Firebase</button>
-                        <button>Vs code</button>
+                <div className="About-content">
+                    <div className="About-getnow">
+                        <h2>Get to know me!</h2>
+                        <p id='text-one'>I'm a software developer proficient in JavaScript
+                            and the web. I'm passionate about web performance, accessibility, mentoring, user & developer experience.</p>
+                        <p>I follow a digital minimalism mindset, using
+                            technology to improve people's lives and provide value for businesses.</p>
+                        <p>In my free time, I build side projects and like
+                            exploring new technologies. You can see some of my work in the projects section below.</p>
+                        <p>I'm open to collaboration opportunities where I can
+                            contribute, learn and grow. Don't hesitate to reach
+                            out if you think my skills and experience are a good fit for your next project.</p>
+                        <button>Project</button>
+                    </div>
+                    <div className="About-mytool">
+                        <h2>My  toolkit</h2>
+                        <div className="mytool-btns">
+                            <button>JavaScript</button>
+                            <button>Node.js</button>
+                            <button>React Native</button>
+                            <button>CSS</button>
+                            <button>SASS</button>
+                            <button>React</button>
+                            <button>Next.js</button>
+                            <button>GSAP</button>
+                            <button>Vite</button>
+                            <button>Expo</button>
+                            <button>Git</button>
+                            <button>Github</button>
+                            <button>Vercel</button>
+                            <button>Figma</button>
+                            <button>awwwards</button>
+                            <button>Tailwind</button>
+                            <button>Bootstrap</button>
+                            <button>Netlify</button>
+                            <button>Vercel</button>
+                            <button>Firebase</button>
+                            <button>Vs code</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </Element>
     )
 }
+
 export default About;

@@ -3,7 +3,7 @@ import './contact.css';
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
+import { Element } from 'react-scroll';
 gsap.registerPlugin(ScrollTrigger);
 
 
@@ -47,26 +47,26 @@ function Contact() {
 
 
     return (
-        <section className="contact-section" id="Contact">
-            <div className="contact-2">
-                <h2>Contact me</h2>
-                <div className="underline"></div>
-            </div>
-            <form className="contact-form">
-                <div className="form-group">
-                    <label htmlFor="title">Title</label>
-                    <input type="text" id="title" placeholder="What you're writing about?" />
+        <Element name="contact">
+            <section className="contact-section">
+                <div className="contact-2">
+                    <h2>Contact me</h2>
+                    <div className="underline"></div>
                 </div>
-                <div className="form-group">
-                    <label htmlFor="message">Message</label>
-                    <textarea id="message" placeholder="Full message comes here..."></textarea>
-                </div>
-                <button type="submit" className="submit-button">Submit</button>
-            </form>
-        </section>
+                <form className="contact-form">
+                    <div className="form-group">
+                        <label htmlFor="title">Title</label>
+                        <input type="text" id="title" placeholder="What you're writing about?" />
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="message">Message</label>
+                        <textarea id="message" placeholder="Full message comes here..."></textarea>
+                    </div>
+                    <button type="submit" className="submit-button">Submit</button>
+                </form>
+            </section>
+        </Element>
     )
-
-
 }
 
 export default Contact;

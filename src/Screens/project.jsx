@@ -7,6 +7,9 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
+import { Element } from 'react-scroll';
+
+
 gsap.registerPlugin(ScrollTrigger);
 
 function Project() {
@@ -73,76 +76,77 @@ function Project() {
 
 
     return (
-        <div id="Project" className="project-container">
-            <div className="project-text">
-                <h1>Projects</h1>
-                <span></span>
+        <Element name="project">
+            <div id="Project" className="project-container">
+                <div className="project-text">
+                    <h1>Projects</h1>
+                    <span></span>
+                </div>
+                <div className="p-main">
+                    <div className="p-card pro1">
+                        <div className="left">
+                            <div className="container">
+                                <h1>Parapantest</h1>
+                                <p>Quizzes and exam simulation for paragliding pilots.</p>
+                                <span>
+                                    <button>Html</button>
+                                    <button>Css</button>
+                                    <button>Javascript</button>
+                                    <button>Vs code</button>
+                                </span>
+                                <div>
+                                    <button onClick={handleClick}>Check it  <i className="fa-solid fa-arrow-up-right-from-square"></i> </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="right">
+                            <img src={carimage} alt="Project 1" />
+                        </div>
+                    </div>
+                    <div className="p-card pro2">
+                        <div className="left">
+                            <div className="container">
+                                <h1>Parapantest</h1>
+                                <p>Quizzes and exam simulation for paragliding pilots.</p>
+                                <span>
+                                    <button>Html</button>
+                                    <button>Css</button>
+                                    <button>Javascript</button>
+                                    <button>Vs code</button>
+                                </span>
+                                <div>
+                                    <button onClick={handleClick}>Check it  <i className="fa-solid fa-arrow-up-right-from-square"></i> </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="right">
+                            <img src={gymimage} alt="Project 1" />
+                        </div>
+                    </div>
+                    <div className="p-card pro3">
+                        <div className="left">
+                            <div className="container">
+                                <h1>Parapantest</h1>
+                                <p>Quizzes and exam simulation for paragliding pilots.</p>
+                                <span>
+                                    <button>Html</button>
+                                    <button>Css</button>
+                                    <button>Javascript</button>
+                                    <button>Vs code</button>
+                                </span>
+                                <div>
+                                    <button onClick={handleClick}>Check it  <i className="fa-solid fa-arrow-up-right-from-square"></i> </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="right">
+                            <img src={business} alt="Project 1" />
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className="p-main">
-                <div className="p-card pro1">
-                    <div className="left">
-                        <div className="container">
-                            <h1>Parapantest</h1>
-                            <p>Quizzes and exam simulation for paragliding pilots.</p>
-                            <span>
-                                <button>Html</button>
-                                <button>Css</button>
-                                <button>Javascript</button>
-                                <button>Vs code</button>
-                            </span>
-                            <div>
-                                <button onClick={handleClick}>Check it  <i className="fa-solid fa-arrow-up-right-from-square"></i> </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="right">
-                        <img src={carimage} alt="Project 1" />
-                    </div>
-                </div>
-                <div className="p-card pro2">
-                    <div className="left">
-                        <div className="container">
-                            <h1>Parapantest</h1>
-                            <p>Quizzes and exam simulation for paragliding pilots.</p>
-                            <span>
-                                <button>Html</button>
-                                <button>Css</button>
-                                <button>Javascript</button>
-                                <button>Vs code</button>
-                            </span>
-                            <div>
-                                <button onClick={handleClick}>Check it  <i className="fa-solid fa-arrow-up-right-from-square"></i> </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="right">
-                        <img src={gymimage} alt="Project 1" />
-                    </div>
-                </div>
-                <div className="p-card pro3">
-                    <div className="left">
-                        <div className="container">
-                            <h1>Parapantest</h1>
-                            <p>Quizzes and exam simulation for paragliding pilots.</p>
-                            <span>
-                                <button>Html</button>
-                                <button>Css</button>
-                                <button>Javascript</button>
-                                <button>Vs code</button>
-                            </span>
-                            <div>
-                                <button onClick={handleClick}>Check it  <i className="fa-solid fa-arrow-up-right-from-square"></i> </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="right">
-                        <img src={business} alt="Project 1" />
-                    </div>
-                </div>
-            </div>
-        </div >
+        </Element>
     )
 }
-
 
 export default Project;

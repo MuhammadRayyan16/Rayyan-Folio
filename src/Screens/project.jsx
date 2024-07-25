@@ -13,13 +13,13 @@ import { Element } from 'react-scroll';
 gsap.registerPlugin(ScrollTrigger);
 
 function Project() {
-    const handleClick = () => {
+    const Project1 = () => {
         window.location.href = 'https://carconnektdev.netlify.app/';
     };
-    const handleClick2 = () => {
+    const Project2 = () => {
         window.location.href = 'https://gymweb78.netlify.app/';
     };
-    const handleClick3 = () => {
+    const Project3 = () => {
         window.location.href = 'https://businessdev.netlify.app/';
     };
 
@@ -95,7 +95,7 @@ function Project() {
                                     <button>Vs code</button>
                                 </span>
                                 <div>
-                                    <button onClick={handleClick}>Check it  <i className="fa-solid fa-arrow-up-right-from-square"></i> </button>
+                                    <button onClick={Project1}>Check it  <i className="fa-solid fa-arrow-up-right-from-square"></i> </button>
                                 </div>
                             </div>
                         </div>
@@ -115,7 +115,7 @@ function Project() {
                                     <button>Vs code</button>
                                 </span>
                                 <div>
-                                    <button onClick={handleClick}>Check it  <i className="fa-solid fa-arrow-up-right-from-square"></i> </button>
+                                    <button onClick={Project2}>Check it  <i className="fa-solid fa-arrow-up-right-from-square"></i> </button>
                                 </div>
                             </div>
                         </div>
@@ -135,7 +135,7 @@ function Project() {
                                     <button>Vs code</button>
                                 </span>
                                 <div>
-                                    <button onClick={handleClick}>Check it  <i className="fa-solid fa-arrow-up-right-from-square"></i> </button>
+                                    <button onClick={Project3}>Check it  <i className="fa-solid fa-arrow-up-right-from-square"></i> </button>
                                 </div>
                             </div>
                         </div>

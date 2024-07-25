@@ -156,3 +156,10 @@
         padding: 0;
     }
 }
+
+@media screen and (max-width:490px) {
+    .project-text h1 {
+        font-family: Space Mono, monospace;
+        font-size: 2.8rem;
+    }
+}

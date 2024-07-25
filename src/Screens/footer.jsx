@@ -9,6 +9,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Footer = () => {
 
+
     useGSAP(() => {
         gsap.from('.footer-section', {
             y: -65,
@@ -36,7 +37,9 @@ const Footer = () => {
 
     return (
         <>
+
             <div className="footer-line"></div>
+
             <div className="footer">
                 <div className="footer-section">
                     <h3>Muhammad Rayyan</h3>
@@ -69,3 +72,9 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+
+
+
+

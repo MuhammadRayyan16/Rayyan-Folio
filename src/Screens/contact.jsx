@@ -33,10 +33,10 @@ function Contact() {
             }
         })
         gsap.from('.submit-button', {
-            y: -65,
+            y: -25,
             delay: 0.3,
             opacity: 0,
-            duration: 1.1,
+            duration: 0.6,
             scrollTrigger: {
                 trigger: '.submit-button',
                 scroller: "body",
@@ -63,7 +63,7 @@ function Contact() {
                         <label htmlFor="message">Message</label>
                         <textarea id="message" placeholder="Full message comes here..."></textarea>
                     </div>
-                    <button type="submit" className="submit-button">Submit</button>
+                    <button className="submit-button">Submit</button>
                 </form>
             </section>
         </Element>

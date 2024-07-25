@@ -24,7 +24,6 @@ const Navbar = () => {
 
     return (
         <div className={`navbar ${show ? 'navbar-show' : 'navbar-hide'}`}>
-
             <img src={Profile} alt="Avatar" />
             <h1>Muhămmăḏ Răyyăn</h1>
             <div className="nav-links">
@@ -37,3 +36,13 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+
+
+
+
+
+
+
+

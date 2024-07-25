@@ -4,6 +4,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Element } from "react-scroll";
+import { Link } from 'react-scroll';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -65,7 +66,7 @@ function About() {
                         <p>I'm open to collaboration opportunities where I can
                             contribute, learn and grow. Don't hesitate to reach
                             out if you think my skills and experience are a good fit for your next project.</p>
-                        <button>Project</button>
+                        <button> <Link to="project" smooth={true} duration={1000}>project</Link></button>
                     </div>
                     <div className="About-mytool">
                         <h2>My  toolkit</h2>

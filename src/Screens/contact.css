@@ -59,15 +59,15 @@
      -webkit-box-shadow: 1px 6px 56px -7px rgba(0, 0, 0, 0.77);
      -moz-box-shadow: 1px 6px 56px -7px rgba(0, 0, 0, 0.77);
      box-shadow: 1px 6px 56px -7px rgba(0, 0, 0, 0.77);
-     transform: translateY(-1px);
+     transform: translateY(-3px);
  }
 
- .form-group input,
+ /* .form-group input, */
  .form-group textarea:hover {
      -webkit-box-shadow: 1px 6px 56px -7px rgba(0, 0, 0, 0.77);
      -moz-box-shadow: 1px 6px 56px -7px rgba(0, 0, 0, 0.77);
      box-shadow: 1px 6px 56px -7px rgba(0, 0, 0, 0.77);
-     transform: translateY(-1px);
+     transform: translateY(-3px);
  }
 
  .form-group textarea {
@@ -103,11 +103,10 @@
  }
 
  .submit-button:hover {
-     background-color: #70e660;
      -webkit-box-shadow: 1px 6px 56px -7px rgba(0, 0, 0, 0.77);
      -moz-box-shadow: 1px 6px 56px -7px rgba(0, 0, 0, 0.77);
      box-shadow: 1px 6px 56px -7px rgba(0, 0, 0, 0.77);
-     transform: translateY(-2px);
+     transform: translateY(-3px);
  }
 
 

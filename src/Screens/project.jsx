@@ -12,6 +12,7 @@ import { Element } from 'react-scroll';
 
 gsap.registerPlugin(ScrollTrigger);
 
+
 function Project() {
     const Project1 = () => {
         window.location.href = 'https://carconnektdev.netlify.app/';

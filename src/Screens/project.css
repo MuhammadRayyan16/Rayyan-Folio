@@ -22,9 +22,6 @@
 .project-text h1 {
     font-family: Space Mono, monospace;
     font-size: 53px;
-    animation: fadeInDown;
-    animation-duration: 2s;
-    animation-delay: 7s;
 }
 
 .project-text span {

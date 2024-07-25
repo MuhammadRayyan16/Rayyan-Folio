@@ -15,13 +15,13 @@ gsap.registerPlugin(ScrollTrigger);
 
 function Project() {
     const Project1 = () => {
-        window.location.href = 'https://carconnektdev.netlify.app/';
+        window.location.href = 'https://solarsaver.vercel.app/';
     };
     const Project2 = () => {
         window.location.href = 'https://gymweb78.netlify.app/';
     };
     const Project3 = () => {
-        window.location.href = 'https://businessdev.netlify.app/';
+        window.location.href = 'https://cafefolio.netlify.app/';
     };
 
 
@@ -87,13 +87,13 @@ function Project() {
                     <div className="p-card pro1">
                         <div className="left">
                             <div className="container">
-                                <h1>Parapantest</h1>
-                                <p>Quizzes and exam simulation for paragliding pilots.</p>
+                                <h1>Solar Saver</h1>
+                                <p>Get top-quality solar panel installations for your home.</p>
                                 <span>
-                                    <button>Html</button>
-                                    <button>Css</button>
-                                    <button>Javascript</button>
-                                    <button>Vs code</button>
+                                    <button>React Vite</button>
+                                    <button>Gsap</button>
+                                    <button>React Scroll</button>
+                                    <button>Vercel</button>
                                 </span>
                                 <div>
                                     <button onClick={Project1}>Check it  <i className="fa-solid fa-arrow-up-right-from-square"></i> </button>
@@ -107,13 +107,13 @@ function Project() {
                     <div className="p-card pro2">
                         <div className="left">
                             <div className="container">
-                                <h1>Parapantest</h1>
-                                <p>Quizzes and exam simulation for paragliding pilots.</p>
+                                <h1>Fitness</h1>
+                                <p>Achieve your fitness goals with personalized training programs.</p>
                                 <span>
                                     <button>Html</button>
                                     <button>Css</button>
                                     <button>Javascript</button>
-                                    <button>Vs code</button>
+                                    <button>Netlify</button>
                                 </span>
                                 <div>
                                     <button onClick={Project2}>Check it  <i className="fa-solid fa-arrow-up-right-from-square"></i> </button>
@@ -127,13 +127,14 @@ function Project() {
                     <div className="p-card pro3">
                         <div className="left">
                             <div className="container">
-                                <h1>Parapantest</h1>
-                                <p>Quizzes and exam simulation for paragliding pilots.</p>
+                                <h1>Cafe</h1>
+                                <p>Start your day with
+                                    a black Coffee</p>
                                 <span>
                                     <button>Html</button>
                                     <button>Css</button>
                                     <button>Javascript</button>
-                                    <button>Vs code</button>
+                                    <button>Netlify</button>
                                 </span>
                                 <div>
                                     <button onClick={Project3}>Check it  <i className="fa-solid fa-arrow-up-right-from-square"></i> </button>

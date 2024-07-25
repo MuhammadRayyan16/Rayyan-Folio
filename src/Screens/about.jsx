@@ -51,7 +51,7 @@ function About() {
                 <div className="About-text">
                     <h1>About me</h1>
                     <span className='green-div'></span>
-                    <i>Developing software for <span id='green-color'>19</span> years; spent <span id='green-color'>11</span> of them in web development.</i>
+                    <i>Creating exceptional websites with <span id='green-color'>1</span> years of web <span id='green-color'>development</span> experience.</i>
                 </div>
                 <div className="About-content">
                     <div className="About-getnow">

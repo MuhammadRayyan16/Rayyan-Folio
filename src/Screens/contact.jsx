@@ -55,13 +55,16 @@ function Contact() {
                 </div>
                 <form className="contact-form">
                     <div className="form-group">
-
-                        <label htmlFor="title">Title</label>
-                        <input type="text" id="title" placeholder="What you're writing about?" />
+                        <p>Title</p>
+                        <span>
+                            <input type="text" placeholder="What you're writing about?" />
+                        </span>
                     </div>
                     <div className="form-group">
-                        <label htmlFor="message">Message</label>
-                        <textarea id="message" placeholder="Full message comes here..."></textarea>
+                        <p>Message</p>
+                        <span>
+                            <textarea placeholder="Full message comes here..."></textarea>
+                        </span>
                     </div>
                     <button className="submit-button">Submit</button>
                 </form>

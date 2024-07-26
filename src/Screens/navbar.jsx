@@ -4,6 +4,7 @@ import 'remixicon/fonts/remixicon.css';
 import Profile from '../assets/profile.png';
 import { Link } from 'react-scroll';
 
+
 const Navbar = () => {
     const [show, setShow] = useState(false);
 

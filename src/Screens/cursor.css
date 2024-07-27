@@ -10,6 +10,7 @@
     will-change: transform;
 }
 
+
 @media (max-width: 900px) {
     .custom-cursor {
         display: none;

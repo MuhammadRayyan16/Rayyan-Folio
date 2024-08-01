@@ -52,7 +52,7 @@ const Footer = () => {
                 <div className="footer-section">
                     <h3>Design</h3>
                     <p>
-                        Inspired by <a href="https://catalinonutu.com/" target="_blank" rel="noopener noreferrer">Catalin Onutu</a>'s website.
+                        Inspired by <a href="https://rayyanfolio.netlify.app/" target="_blank" rel="noopener noreferrer">Muhammad Rayyan</a>'s website.
                     </p>
                 </div>
                 <div className="footer-section">

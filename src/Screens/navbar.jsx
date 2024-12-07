@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './navbar.css';
+import '../Screens/Css/navbar.css';
 import 'remixicon/fonts/remixicon.css';
 import Profile from '../assets/profile.png';
 import { Link } from 'react-scroll';

@@ -15,7 +15,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background: url(../assets/lines.webp) no-repeat center center/cover;
+    background: url(../../assets/lines.webp) no-repeat center center/cover;
     filter: opacity(0.25) grayscale(0.75);
     z-index: 0;
 }

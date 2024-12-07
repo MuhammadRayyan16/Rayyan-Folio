@@ -1,5 +1,5 @@
 import React from 'react';
-import './footer.css';
+import '../Screens/Css/footer.css';
 import 'remixicon/fonts/remixicon.css'
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";

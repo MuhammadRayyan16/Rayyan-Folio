@@ -1,5 +1,5 @@
 import React from 'react';
-import './about.css';
+import '../Screens/Css/about.css';
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -73,9 +73,9 @@ function About() {
                         <div className="mytool-btns">
                             <button>JavaScript</button>
                             <button>Node.js</button>
+                            <button>Express.js</button>
                             <button>React Native</button>
                             <button>CSS</button>
-                            <button>SASS</button>
                             <button>React</button>
                             <button>Next.js</button>
                             <button>GSAP</button>

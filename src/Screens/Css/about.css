@@ -57,7 +57,6 @@
 }
 
 .About-getnow p {
-    font-family: "Roboto", sans-serif;
     font-size: 16.5px;
     line-height: 22px;
     font-weight: 500;
@@ -71,7 +70,7 @@
     background-color: #70e660;
     color: #121415;
     border: none;
-    height: 2.8rem;
+    height: 3.2rem;
     width: 8.8rem;
     border-radius: 3px;
     text-align: center;

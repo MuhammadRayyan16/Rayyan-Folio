@@ -9,6 +9,7 @@ import Footer from './Screens/footer';
 import Loader from './Screens/loader';
 import Cursor from './Screens/Cursor';
 
+
 function App() {
   const [loading, setLoading] = useState(true);
 
